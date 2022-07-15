@@ -23,6 +23,7 @@
     --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
     --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
 
+
     /*========== Font and typography ==========*/
     --body-font: 'Poppins', sans-serif;
 
@@ -386,7 +387,15 @@ img {
 .about__description{
   text-align: center;
   margin-bottom: var(--mb-2-5);
-  margin-top: 30%;
+  margin-top: 10%;
+}
+
+.about__links{
+  color: var(--first-color);
+}
+
+.about__links:hover{
+  color: var(--first-color-alt);
 }
 
 .about__info{
@@ -483,6 +492,18 @@ img {
   background-color: var(--first-color);
 }
 
+.skills__c{
+  width: 90%;
+}
+
+.skills__cpp{
+  width: 90%;
+}
+
+.skills__python{
+  width: 65%;
+}
+
 .skills__html{
   width: 90%;
 }
@@ -503,6 +524,10 @@ img {
   width: 70%;
 }
 
+.skills__express{
+  width: 70%;
+}
+
 .skills__websocket{
   width: 50%;
 }
@@ -512,7 +537,7 @@ img {
 }
 
 .skills__mongo{
-  width: 60%;
+  width: 65%;
 }
 
 .skills__close .skills__list{
@@ -655,12 +680,15 @@ img {
 /*==================== CONTACT ME ====================*/
 .contact__container{
   row-gap: 3rem;
+  padding: 4rem;
 }
 
 .contact__information{
   display: flex;
   margin-bottom: var(--mb-2);
+  margin-left: 30%;
 }
+
 
 .contact__icon{
   font-size: 2rem;
